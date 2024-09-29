@@ -56,7 +56,7 @@
   <section id="contact" class="contact-section">
     <h2>Contact Me</h2>
     <p>If you like what you see, let's get in touch!</p>
-    <a href="mailto:youremail@example.com" class="btn">Send an Email</a>
+    <a href="email.php" class="btn">Send an Email</a>
   </section>
 
   <footer>
