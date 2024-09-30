@@ -7,6 +7,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+  <?php
+  session_start();
+  $username = $_SESSION['username'];
+  $password = $_SESSION['password'];
+  ?>
   <?php require_once "conn.php"; ?>
     <?php require_once "header.php"; ?>
     <main>
