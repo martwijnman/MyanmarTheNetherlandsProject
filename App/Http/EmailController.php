@@ -1,5 +1,6 @@
 <?php
 $action = $_POST['action'];
+require_once "conn/config.php";
 if($action == "email"){
     $email = $_POST['email'];
     $content = $_POST['content'];
